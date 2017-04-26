@@ -4,5 +4,5 @@ This is a lightweight reference implementation of the CRT simulation from titles
 This implementation is built around Direct3D9, and a Visual Studio 2005 project is included.
 
 Examples of the CRT simulation in action:
-![TweetDeck](http://j-kyle.com/mystuff/crtsim1.png)
-![Guitarguy Rocks Out](http://j-kyle.com/mystuff/crtsim2.png)
+![TweetDeck](http://j-kyle.com/mystuff/crtsim1_sm.png)
+![Guitarguy Rocks Out](http://j-kyle.com/mystuff/crtsim2_sm.png)

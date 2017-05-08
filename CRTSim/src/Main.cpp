@@ -535,7 +535,7 @@ void Render()
 			hRes = gPostEffect->SetTexture(gPostEffect->GetParameterByName(NULL, "DownsampleBuffer"), gRTT_Downsample);
 
 			float InvAspectRatio = (float)Parameters::Init_DstHeight / (float)Parameters::Init_DstWidth;
-			D3DXVECTOR4 BloomScaleVec4(InvAspectRatio * Parameters::Tuning_Bloom_Downsample_Spread, Parameters::Tuning_Bloom_Downsample_Spread, 0.0f, 0.0f);
+			D3DXVECTOR4 BloomScaleVec4(InvAspectRatio * Parameters::Tuning_Bloom_Upsample_Spread, Parameters::Tuning_Bloom_Upsample_Spread, 0.0f, 0.0f);
 
 			hRes = gPostEffect->SetVector(gPostEffect->GetParameterByName(NULL, "BloomScale"), &BloomScaleVec4);
 
